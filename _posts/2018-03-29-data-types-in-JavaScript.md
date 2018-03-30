@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  "Data Types in JavaScript"
+title:  "Macbook Pro 13 inch and 15 inch"
 date:   2018-03-29 20:49:05 -0800
 categories: jekyll posts
 ---
 
-Chances are, at some point, you’ll want to include images, downloads, or other digital assets along with your text content. While the syntax for linking to these resources differs between Markdown and Textile, the problem of working out where to store these files in your site is something everyone will face.
+It’s razor thin, feather light, and even faster and more powerful than before. It has the brightest, most colorful Mac notebook display ever. And it features the Touch Bar — a Multi-Touch enabled strip of glass built into the keyboard for instant access to the tools you want, right when you want them. MacBook Pro is built on groundbreaking ideas. And it’s ready for yours.
 
-Check out the [Macbook Pro 13"][macbook-pro-13-inch]
-Check out the [Macbook Pro 15"][macbook-pro-13-inch]
-Check out the [Macbook Pro 13" Refurbished][macbook-pro-13-inch-refurb]
-Check out the [Macbook Pro 15" Refurbished][macbook-pro-15-inch-refurb]
+Check out these links.\\
+- [Macbook Pro 13"][macbook-pro-13-inch]
+- [Macbook Pro 15"][macbook-pro-13-inch]
+- [Macbook Pro 13" Refurbished][macbook-pro-13-inch-refurb]
+- [Macbook Pro 15" Refurbished][macbook-pro-15-inch-refurb]
 
 [macbook-pro-13-inch]: https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
 [macbook-pro-15-inch]:   https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
