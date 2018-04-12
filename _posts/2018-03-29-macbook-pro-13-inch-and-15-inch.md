@@ -17,4 +17,4 @@ Check out these links.
 [macbook-pro-15-inch]:   https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
 [macbook-pro-13-inch-refurb]: https://www.apple.com/shop/browse/home/specialdeals/mac/macbook_pro/13
 [macbook-pro-15-inch-refurb]: https://www.apple.com/shop/browse/home/specialdeals/mac/macbook_pro/15
-https://www.madewithcode.com/ a nice place to learn coding and get some inspiration
+[madewithcode]:https://www.madewithcode.com/ a nice place to learn coding and get some inspiration
