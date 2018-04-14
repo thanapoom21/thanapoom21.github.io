@@ -12,8 +12,10 @@ Check out these links.
 - [Macbook Pro 15"][macbook-pro-13-inch]
 - [Macbook Pro 13" Refurbished][macbook-pro-13-inch-refurb]
 - [Macbook Pro 15" Refurbished][macbook-pro-15-inch-refurb]
+- [Made with Code][madewithcode] - a nice place to learn coding and get some inspiration
 
 [macbook-pro-13-inch]: https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
 [macbook-pro-15-inch]:   https://www.apple.com/shop/buy-mac/macbook-pro/15-inch
 [macbook-pro-13-inch-refurb]: https://www.apple.com/shop/browse/home/specialdeals/mac/macbook_pro/13
 [macbook-pro-15-inch-refurb]: https://www.apple.com/shop/browse/home/specialdeals/mac/macbook_pro/15
+[madewithcode]:https://www.madewithcode.com/
