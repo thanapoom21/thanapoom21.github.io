@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Macbook Pro 13 inch and 15 inch"
-date:   2018-03-29 20:49:05 -0800
+date:   2018-03-29 20:49:05
 categories: jekyll posts
 ---
 
