@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What actually is Amazon S3?"
+date: 2018-03-30 17:26:65
 categories: jekyll posts
 ---
 
@@ -15,17 +16,19 @@ You can choose between Standard, Standard - Infrequent Access Storage, or Reduce
 However, [On-Demand Storage][on-demand-storage] is another way you can store your data on your own budget. It lets you pay for storage by GB with no long-term commitments freeing you from the cost and effort of planning, estimating and purchasing storage capacity ahead of time.
 
 |-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|  | **Standard Storage** | **Standard - Infrequent Access Storage†** | **Glacier Storage**  |
 |-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
+| First 50 TB / month | $0.0390 per GB | $0.0200 per GB | $0.006 per GB |
+| Next 450 TB / month | $0.037 per GB | $0.0200 per GB | $0.006 per GB |
+| Over 500 TB / month | $0.0355 per GB | $0.0200 per GB | $0.006 per GB |
 |-----------------+------------+-----------------+----------------|
 | Second body     |            |                 |                |
 | 2 line          |            |                 |                |
 |=================+============+=================+================|
 | Footer row      |            |                 |                |
 |-----------------+------------+-----------------+----------------|
+
+† Standard – Infrequent Access storage has a minimum object size of 128KB. Smaller objects will be charged for 128KB of storage.
 
 [amazons3-faqs]:https://aws.amazon.com/s3/faqs/
 [on-demand-storage]:https://aws.amazon.com/govcloud-us/pricing/s3/
