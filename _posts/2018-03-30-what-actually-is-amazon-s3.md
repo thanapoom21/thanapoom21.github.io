@@ -22,11 +22,6 @@ However, [On-Demand Storage][on-demand-storage] is another way you can store you
 | Next 450 TB / month | $0.037 per GB | $0.0200 per GB | $0.006 per GB |
 | Over 500 TB / month | $0.0355 per GB | $0.0200 per GB | $0.006 per GB |
 |-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
 
 † Standard – Infrequent Access storage has a minimum object size of 128KB. Smaller objects will be charged for 128KB of storage.
 
