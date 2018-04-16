@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "What actually is Amazon S3?"
-date:   2018-03-30 17:26:65 -0800
 categories: jekyll posts
 ---
 
