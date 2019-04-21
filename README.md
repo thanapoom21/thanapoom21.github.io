@@ -1,6 +1,6 @@
 # GitHub Pages
 
-## [My personal website on GitHub](thanapoom21.github.io)
+## [My personal website on GitHub](https://thanapoom21.github.io)
 
 GitHub Pages are public web pages for users, organizations, and repositories, that are freely hosted on GitHub's `github.io` domain or on a custom domain name of your choice. GitHub Pages are powered by Jekyll behind the scenes, so they are a great way to host your Jekyll-powered website for free.
 
