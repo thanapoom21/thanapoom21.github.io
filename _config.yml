@@ -16,7 +16,7 @@
 title: Tech Docs
 email: thanapoom.p.music@gmail.com
 description: The storage for technology related documentations.
-baseurl: "/tech-docs/" # the subpath of your site, e.g. /blog
+baseurl: "/tech-docs" # the subpath of your site, e.g. /blog
 url: "https://thanapoom21.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
