@@ -4,5 +4,4 @@ _site
 Gemfile.lock
 *.gem
 .bundle
-_site
 node_modules
