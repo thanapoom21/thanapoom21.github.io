@@ -16,10 +16,23 @@ Note that GitHub Pages runs in `safe` mode and only allows [a set of whitelisted
 
 To use the currently-deployed version of the gem in your project, add the following to you `Gemfile`:
 
-```
+```ruby
 source "https://rubygems.org"
 
 gem "github-pages", group: : jekyll_plugins
 ```
 
 Be sure to run ```bundle update``` often.
+
+## Project Page URL Structure
+
+Sometimes it's nice to preview Jekyll site before pushing `gh-pages` branch to GitHub. The subdirectory-like URL structure GitHub uses for Project Pages complicates the proper resolution of URLs. In order to assure your site builds properly, use the handy URL filters:
+
+```html
+<!-- For styles with static names... -->
+<link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
+<!-- For documents/pages whose URLs can change... -->
+[{{ page.title }}]("{{ page.url | relative_url }}")
+```
+
+The site can be viewed on localhost from the site root, when GitHub generates the pages from `gh-pages` branch all the URLs will resolve properly.
