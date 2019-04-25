@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: default
 title: "What actually is Amazon S3?"
-categories: jekyll posts
+nav_order: 6
+description: "Amazon Web Services"
 ---
 
 We might have heard the terms "AWS" or "Amazon S3" but not really sure what they are capable of doing.

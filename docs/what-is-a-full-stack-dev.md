@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: default
 title: "What is a full stack developer?"
-date: 2019-04-24 16:48:00
-categories: jekyll posts
+nav_order: 4
+description: "Differences between frontend, backend, and full-stack developers."
 ---
 
 It sounds like a full-stack developer is a well-rounded person who can brilliantly answers all questions related to technology. Is it true? Kind of. In order to become a full-stack developer, one needs to know front-end and back-end development but what are those things anyway?
