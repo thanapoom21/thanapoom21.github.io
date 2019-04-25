@@ -12,3 +12,5 @@ Front-end development mainly includes website skeleton or HTML, website appearan
 Back-end development involves server-side programming languages such as java, php, python. Plus, being able to work with databases is preferable. Both relational database like MySQL, PostgreSQL, and Oracle and non-relational database like MongoDB, CouchDB, and Cassandra.
 
 Project Management is another important aspect of being a full-stack developer. Is it comfortable for you to work with clients, designers, and developers and complete a project with ease? Timelines of a specific project, infrastructure decisions, and correct requirements are your concerns.
+
+One of the most popular stacks is MEAN which is MongoDB, ExpressJS, Angular, and NodeJS. There are a bunch of dev stacks out there and it depends on where you are.
