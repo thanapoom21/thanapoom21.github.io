@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: default
 title: "Getting to know PostgreSQL?"
-categories: jekyll posts
+nav_order: 5
+description: "PostgreSQL is a powerful, open source object-relational database system."
 ---
 
 PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development. I'm gonna try to learn how it works and demonstrate how it reacts with front-end and back-end development.

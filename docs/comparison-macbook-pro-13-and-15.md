@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Macbook Pro 13 inch and 15 inch"
-date:   2018-03-29 20:49:05
-categories: jekyll posts
+layout: default
+title:  'Macbook Pro 13" VS 15" '
+nav_order: 3
+description: "A comparison guide for people who seek for a new Macbook Pro."
 ---
 
 It’s razor thin, feather light, and even faster and more powerful than before. It has the brightest, most colorful Mac notebook display ever. And it features the Touch Bar — a Multi-Touch enabled strip of glass built into the keyboard for instant access to the tools you want, right when you want them. MacBook Pro is built on groundbreaking ideas. And it’s ready for yours.
