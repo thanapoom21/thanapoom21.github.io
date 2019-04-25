@@ -21,7 +21,7 @@ url: "https://thanapoom21.github.io" # the base hostname & protocol for your sit
 
 # Build settings
 markdown: kramdown
-remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
@@ -32,7 +32,7 @@ search_enabled: true
 # Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
-    - "https://github.com/pmarsceill/just-the-docs"
+    - "//github.com/pmarsceill/just-the-docs"
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: dark
