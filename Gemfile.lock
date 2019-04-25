@@ -248,7 +248,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
-  jekyll-remote-theme
   just-the-docs
 
 BUNDLED WITH
