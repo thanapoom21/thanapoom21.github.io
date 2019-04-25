@@ -248,7 +248,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
-  just-the-docs (~> 0.2.3)
+  just-the-docs
 
 BUNDLED WITH
    1.17.2
