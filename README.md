@@ -36,3 +36,15 @@ Sometimes it's nice to preview Jekyll site before pushing `gh-pages` branch to G
 ```
 
 The site can be viewed on localhost from the site root, when GitHub generates the pages from `gh-pages` branch all the URLs will resolve properly.
+
+Findings:
+
+When serving files locally on a specific port, HTML, CSS, and JS seem to work well together. However, a bug occured when pushing files to GitHub, what appears on the console was files not found or 404, even when testing with different approaches.
+
+Tips: Try to install gem with only one method. DO NOT COMBINE methods or ruby will get confused.
+
+- Fork and clone from a repo.
+- Add gem using ```gem install just-the-docs``` or add ```gem "just-the-docs"``` directly on Jekyll site's Gemfile. Then add ```theme: "just-the-docs"```.
+- Add remote_theme: owner/repository , for exameple, ```remote_theme: pmarsceill/just-the-docs```
+
+Tips: baseurl and url key in _config.yml file can cause issue when pushing to GitHub Pages. If baseurl and url are provided but the site does not render properly, try remove the value and keep empty ```""``` and the style should render properly.

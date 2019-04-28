@@ -25,3 +25,4 @@ alert(3);
 
 ## I/O(input/output)
 
+It refers to program's interaction with the system disk and network.
