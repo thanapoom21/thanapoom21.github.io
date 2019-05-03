@@ -54,4 +54,6 @@ fs.readFile('./test-nodejs.md', 'utf-8', (err, data) => {
 addNumbers(5, 6); // will run before console.log
 ```
 
-Non-blocking primarily refers to I/O operations, and JavaScript that exhibits poor performance due to being CPU intensive rather than waiting on a non-JavaScript operation, such as I/O, is not referred to as blockin.
+Non-blocking operations allow a single process to serve multiple requests at the same time. However, Node.js is not suitable for CPU intensive operations which need a lot of calculations.
+
+Most I/O methods in the Node.js standard library automatically serve async methods, which are non-blocking, and accept callback function as its argument. On the other hand, some methods come with ```Sync``` end which is a blocking operation.
