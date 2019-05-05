@@ -48,3 +48,21 @@ Tips: Try to install gem with only one method. DO NOT COMBINE methods or ruby wi
 - Add remote_theme: owner/repository , for exameple, ```remote_theme: pmarsceill/just-the-docs```
 
 Tips: baseurl and url key in _config.yml file can cause issue when pushing to GitHub Pages. If baseurl and url are provided but the site does not render properly, try remove the value and keep empty ```""``` and the style should render properly.
+
+### To serve and test locally
+
+```ruby
+bundle exec jekyll serve
+```
+
+### To build for production
+
+```ruby
+bundle exec jekyll build
+```
+
+### To serve locally and see how the site will work when deployinh for production
+
+```ruby
+JEKYLL_ENV=production bundle exec jekyll serve
+```
