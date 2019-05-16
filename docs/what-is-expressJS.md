@@ -122,6 +122,63 @@ Where:
 * PATH is a path on the server.
 * HANDLER is the function executed when the route is matched.
 
+## Serving static files in Express
+
+Files such as images, CSS, and JS can be served uing the ```express.static``` build-in middleware function in Express.
+
+```js
+express.static(root, [options])
+```
+
+The root argument specifies the root directory from which to serve static assets. Click [express.static](https://expressjs.com/en/4x/api.html#express.static) for more information on the options argument.
+
+The following code serves images, CSS, and JS files in a directory named ```public```:
+
+```js
+app.use(express.static('public'))
+```
+
+Assuming these files are in public directory:
+
+```js
+http://localhost:3000/images/mountain.jpg
+http://localhost:3000/css/custom.css
+http://localhost:3000/js/app.js
+http://localhost:3000/images/bg-white.png
+http://localhost:3000/about.html
+```
+
+To use multiple static assets directories, call the express.static middleware function multiple times:
+
+```js
+app.use(express.static('public'));
+app.use(express.static('files'));
+```
+
+> NOTE: For best results, use a reverser proxy cache to improve performance of serving static assets.
+
+To create a virtual path prefix (where the path does not actually exist in the file system) for files that are served by the `express.static` function, specify a mount path for the static directory, as shown below:
+
+```js
+app.use('/static', express.static('public'));
+```
+
+Now, you can load the files that are in the public directory from the `static` path prefix.
+
+```js
+http://localhost:3000/static/images/mountain.jpg
+http://localhost:3000/static/css/custom.css
+http://localhost:3000/static/js/app.js
+http://localhost:3000/static/images/bg-white.png
+http://localhost:3000/static/about.html
+```
+
+However, the path that you provide to the `express.static` function is relative to the directory from where you launch your `node` process. If you run the express app from another directory, it's safer to use the absolute path of the directory that you want to serve:
+
+```js
+app.use('/static', express.static(path.join(__dirname, 'public')));
+```
+
 The following example illustrate defining REST APIs with the use of async and await:
 
 ```js

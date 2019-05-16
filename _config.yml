@@ -37,7 +37,7 @@ aux_links:
     - "//github.com/pmarsceill/just-the-docs"
 
 # Color scheme currently only supports "dark" or nil (default)
-color_scheme: dark
+color_scheme: nil
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
