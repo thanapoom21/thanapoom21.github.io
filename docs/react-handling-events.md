@@ -5,7 +5,9 @@ nav_order: 10
 description: "Handling Events in React"
 ---
 
-## Handling events with React is similar to handling events on DOM elements
+## [Handling Events](https://reactjs.org/docs/handling-events.html)
+
+### Handling events with React is similar to handling events on DOM elements
 
 ```js
 // HTML using lowercase
