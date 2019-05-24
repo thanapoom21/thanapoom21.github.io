@@ -5,7 +5,7 @@ nav_order: 9
 description: "Introducing the concept of state and lifecycle in a React component"
 ---
 
-## [React State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+## [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
 
 Calling `ReactDOM.render()` to change the rendered output:
 
@@ -295,7 +295,7 @@ function App() {
     );
 }
 
-ReactDOM.render(<App />, document.getElementById('roor'));
+ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 It is a top-down or unidirectional data flow. Any state is always owned by some specific component, and any date or UI derived from that state can only affect components below them in the tree.

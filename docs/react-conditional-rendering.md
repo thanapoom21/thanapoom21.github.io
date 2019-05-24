@@ -5,7 +5,9 @@ nav_order: 11
 description: "Conditionally Rendering Components in React"
 ---
 
-## Conditional rendering is the same in React and JavaScript
+## [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
+
+### Conditional rendering is the same in React and JavaScript
 
 It is possible to create distinct components that encapsulate a specific behavior in React. Also, components can be rendered depending on the state of the application.
 

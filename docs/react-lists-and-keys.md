@@ -5,7 +5,7 @@ nav_order: 11
 description: "Why Are Lists And Keys Important in React?"
 ---
 
-## Lists and Keys
+## [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
 
 Function called `map()` is used here to take an array of numbers and double their values. We assign the new array returned by `map()` to the variable `doubled` and log it to the console.
 
