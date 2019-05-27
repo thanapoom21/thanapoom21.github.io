@@ -52,3 +52,172 @@ handleChange(event) {
     this.setState({value: event.target.value.toUpperCase()});
 }
 ```
+
+### The Textarea Tag
+
+In HTML, a `<textarea>` element defines its text by its children:
+
+```js
+<textarea>
+    Hello my friend, this is an example of textarea in HTML.
+</textarea>
+```
+
+In React, it uses a `value` attribute instead. This way, a form using a `<textarea>` can be written very similarly to a form that uses a single-line input:
+
+```js
+class EssayForm extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { // a block of text in the textarea element is initialized as a placeholder here.
+            value: 'Please write an essay about your favorite DOM element.'
+        };
+
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleChange(event) {
+        this.setState({value: event.target.value});
+    }
+
+    handleSubmit(event) {
+        alert('An essay was submitted: ' + this.state.value);
+        event.preventDefault();
+    }
+
+    render() {
+        return (
+            <form onSubmit={this.handleSubmit}>
+                <label>
+                    Essay:
+                    <textarea value={this.state.value} onChange={this.handleChange} />
+                </label>
+                <input type="submit" value="Submit" />
+            </form>
+        )
+    }
+}
+```
+
+### The Select Tag
+
+In HTML, `<select>` creates a drop-down list. For example, this HTML creates a drop-down list of flavors:
+
+```js
+<select>
+    <option value="grapefruit">Grapefruit</option>
+    <option value="watermelon">Watermelon</option>
+    <option value="pineapple">Pineapple</option>
+    <option selected value="calamansi">Calamansi</option>
+</select>
+```
+
+> Note that the Calamansi option is initially selected, because of the `selected` attribute. React, instead of using `selected` attribute, it uses a `value` attribute on the root `select` tag. This is more convenient in a controlled component because you only need to update it in one place. For example:
+
+```js
+class FlavorForm extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {value: 'calamansi'};
+
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleChange(event) {
+        this.setState({value: event.target.value});
+    }
+
+    handleSubmit(event) {
+        alert('Your favorite flavor is: ' + this.state.value);
+        event.preventDefault();
+    }
+
+    render() {
+        return (
+            <form onSubmit={this.handleSubmit}>
+                <label>
+                    Pick your favorite flavor:
+                    <select value={this.state.value} onChange={this.handleChange}>
+                        <option value="grapefruit">Grapefruit</option>
+                        <option value="watermelon">Watermelon</option>
+                        <option value="pineapple">Pineapple</option>
+                        <option value="calamansi">Calamansi</option>
+                    </select>
+                </label>
+                <input />
+            </form>
+        )
+    }
+}
+```
+
+Overall, this makes it so that `<input type="text">`, `<textarea>`, and `<select>` all work very similarly - they all accept a `value` attribute that you can use to implement a controlled component.
+
+> Note - you can pass an array into the value attibute, allowing you to select multiple options on a select tag:
+
+```js
+<select multiple={true} value={['B', 'C']}>
+```
+
+### The File Input Tag
+
+In HTML, an `<input type="file">` lets the user choose one or more files from their device storage to be uploaded to a server or manipulated by JavaScript via the [File API](https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications).
+
+```js
+<input type="file" />
+```
+
+Because its value is read-only, it is an uncontrolled component in React. It is discussed together with other [uncontrolled components](https://reactjs.org/docs/uncontrolled-components.html#the-file-input-tag).
+
+### Handling Multiple Inputs
+
+When you need to handle multiple controlled input elements, you can add a name attribute to each element and let the handler function choose what to do based on the value of `event.target.name`.
+
+```js
+class Reservation extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isGoing: true,
+            numberOfGuests: 2
+        };
+
+        this.handleInputChange = this.handleInputChange.bind(this);
+    }
+
+    handleInputChange(event) {
+        const target = event.target;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
+        const name = target.name;
+
+        this.steState({
+            [name]: value
+        });
+    }
+
+    render() {
+        return (
+            <form>
+                <label>
+                    Is going:
+                    <input  name="isGoing"
+                            type="checkbox"
+                            checked={this.state.isGoing}
+                            onChange={this.handleInputChange} />
+                </label>
+                <br />
+                <label>
+                    Number of guests:
+                    <input  name="numberOfGuests"
+                            type="number"
+                            value={this.state.numberOfGuests}
+                            onChange={this.handleInputChange} />
+                </label>
+            </form>
+        );
+    }
+}
+```
+
