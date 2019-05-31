@@ -263,6 +263,6 @@ In these situations, you might want to check out uncontrolled components, altern
 
 ### Fully-Fledged Solutions
 
-If you are looking for a complete solution including validation, keeping track of the visited fields, and handling form submission, Formik is one of the popular choices.
+If you are looking for a complete solution including validation, keeping track of the visited fields, and handling form submission, [Formik](https://jaredpalmer.com/formik/) is one of the popular choices.
 
 However, it is built on the same principles of controlled components and managing state - so don't neglect to learn them.
