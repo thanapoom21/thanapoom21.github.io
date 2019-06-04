@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  'Design Principles'
-nav_order: 20
+nav_order: 30
 description: "Basic Design Principles for Everyone"
 ---
 
