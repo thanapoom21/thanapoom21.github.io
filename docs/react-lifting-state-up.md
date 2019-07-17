@@ -151,8 +151,6 @@ For example. tryConvert('abc', toCelsius) returns an empty string, and tryConver
 
 ---
 
-### Lifting State Up
-
 Currently, both `TemperatureInput` components independently keep their values in the local state:
 
 ```js
