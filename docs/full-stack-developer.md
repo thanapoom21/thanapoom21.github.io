@@ -46,3 +46,59 @@ Qualifications:
 - Interested in user-centered design.
 
 - Have a passion for building fluid, usable, and accessible UIs, and making it easier for other engineers to do the same.
+
+## Senior Web Developer
+
+### Responsibilities
+
+- Develop websites to meet business requirements and other specifications
+
+- Support DevOps activities across web content platforms
+
+- Implement of a robust set of services and APIs
+
+- Build reusable code and libraries for future use
+
+- Translate of UI/UX wireframes to visual elements
+
+- Integrate of the front-end and back-end aspects of the websites
+
+- Perform code reviews and set development standards
+
+- Coach, mentor and lead other developers
+
+- Create database schemas that represent and support business processes as needed
+
+- Implement automated testing platforms and unit tests
+
+### Education and Experience
+
+- BS in Computer Science or equivalent experience
+
+- 10 years of web development experience, with deep expertise in HTML & CSS
+
+- Proficient with NodeJS, JavaScript
+
+- Experience using code versioning tools such as Git
+
+- Good to have experience with AWS, containers, ECS, Docker
+
+- Experience working in an agile environment
+
+- Experience with RESTful API development helpful
+
+### Job description
+
+- Hands on experience working with Java,J2EE projects.
+
+- Should have worked on at least one of the mvc patterns preferably Spring.
+
+- Should have working experience of Angular js, Jquery, nodejs, Karma,Jasmine and javascripts.
+
+- Should have worked on version management tools like SVN, Bit Bucket etc.
+
+- Good to have : Knowledge of working on webstorm IDE.
+
+- Good to have : Knowledge build tools like Jenkins/bamboo.
+
+- Good to have : Should have worked with stored procedures.
