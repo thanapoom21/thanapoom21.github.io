@@ -37,17 +37,36 @@ const newText = "This is a new text";
 $(".selectedElement").append(newText);
 ```
 
+Let's say we want to manipulate the value of a form input.
+
+```js
+<label>Title</label>
+<input type="text" id="titleInput"/>
+
+<label>Content</label>
+<textarea id="contentInput"></textarea>
+
+<button id="previewButton">Preview</button>
+
+<div class="previewArea">
+  <h2 id="titlePreview"></h2>
+  <div id="contentPreview"></div>
+</div>
+```
+
 ```js
 /**
   *
-  Let's say we want to manipulate the value of a form input.
-  <ul id="">
-    l
-  </ul
+  Use click method with a callback function.
+  Create local variables to store input values.
+  Render the data in variables to selected IDs using text() and html().
   *
   **/
-const newText = "This is a new text";
-$(".selectedElement").append(newText);
+$("#previewButton").click(function() {
+  const title = $("#titleInput").val();
+  const content = $("#contentInput").val();
 
-$;
+  $("#titlePreview").text(title);
+  $("#contentPreview").html(content);
+});
 ```
