@@ -27,6 +27,8 @@ Reinforcing an idea by repeting shapes, colors, typefaces, can send a signal to 
 
 ### 6. Balance
 
+It means the distribution of design elements. Certain objects or elements can be intepreted as lighter or heavier in a composition if the design is divided in half. There are two main types of balance in design; symmetry and asymmetry. A symmetrical design is quite simple because the elements look identical on both sides, on the other hand, an asymmetrical design provides a more interesting aspect and usually is more difficult to craft.
+
 ### 7. Color
 
 ### 7. Space
