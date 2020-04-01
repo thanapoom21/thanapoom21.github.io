@@ -12,3 +12,10 @@ Dependencies are one of the most confusing things in development, especially whe
 ```javascript
 npm init
 ```
+
+Tilde
+Caret
+
+Major
+Minor
+Patch
