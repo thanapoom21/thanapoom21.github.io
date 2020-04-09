@@ -13,7 +13,7 @@ Dependencies are one of the most confusing things in development, especially whe
 npm init
 ```
 
-Tilde
+Tilde(~) is a special character specifiying.
 Caret
 
 Major
