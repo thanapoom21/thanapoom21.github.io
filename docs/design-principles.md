@@ -48,3 +48,16 @@ It means the distribution of design elements. Certain objects or elements can be
 ### 14. Variety
 
 ### 15. Unity
+
+### 16. Typography
+
+> Definitions
+
+- Counter: An area of a letter that is entirely or partially enclosed, such as the hole in an "O" or a "P" character.
+- Drop cap: where the first letter of a paragraph is an enlarged capital letter.
+- Font pairing: A combination of fonts that work well together in a design.
+- Line height: Also called leading, this is the distance between two lines of type. It's calculated by measuring between the two baselines.
+- Pull quote: A quotation which is taken from the body text and styled differently in order to make it stand out.
+- Type ratio: The difference between the largest and smallest font size.
+- Type scales: A method for creating balanced and harmonious font sizing.
+- x-height: The distance between the baseline and the mean line of the lower-case letters. A tip is to look at the height of a lower-case letter x, hence the name.
